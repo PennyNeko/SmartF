@@ -43,6 +43,7 @@
             this.today = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button4 = new System.Windows.Forms.Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +51,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(404, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(228, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -60,7 +61,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(216, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(33, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(150, 150);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -82,12 +83,12 @@
             // expiringGoods
             // 
             this.expiringGoods.Text = "Expiring Goods";
-            this.expiringGoods.Width = 261;
+            this.expiringGoods.Width = 159;
             // 
             // offers
             // 
             this.offers.Text = "Offers/Discounts";
-            this.offers.Width = 260;
+            this.offers.Width = 175;
             // 
             // button1
             // 
@@ -119,7 +120,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(96, 39);
+            this.label1.Location = new System.Drawing.Point(473, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 13);
             this.label1.TabIndex = 8;
@@ -128,7 +129,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(99, 89);
+            this.label2.Location = new System.Drawing.Point(473, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 9;
@@ -168,12 +169,22 @@
             this.webBrowser1.TabIndex = 12;
             this.webBrowser1.Url = new System.Uri("http://www.google.com", System.UriKind.Absolute);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(450, 121);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 13;
+            this.button5.Text = "Settings";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(584, 861);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.listView2);
@@ -209,6 +220,7 @@
         private System.Windows.Forms.ColumnHeader today;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.Button button5;
     }
 }
 
